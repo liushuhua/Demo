@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="location" />
+    <version value="1" />
+
+    <list>
+        <mapping>com.example.liushuhua.weather.model.Province</mapping>
+        <mapping>com.example.liushuhua.weather.model.City</mapping>
+        <mapping>com.example.liushuhua.weather.model.Country</mapping>
+    </list>
+</litepal>

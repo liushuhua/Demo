@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="main_title">Weather</string>
+    <string name="drawer_layout_open">Open</string>
+    <string name="drawer_layout_close">Close</string>
+    <string name="first_menu_item">FirstItem</string>
+    <string name="second_menu_item">SecondItem</string>
+    <string name="third_menu_item">ThirdItem</string>
+    <string name="fourth_menu_item">FourthItem</string>
+    <string name="fifth_menu_item">FifthItem</string>
+    <string name="head_name">佚名</string>
 </resources>
