@@ -9,4 +9,7 @@
     <string name="fourth_menu_item">FourthItem</string>
     <string name="fifth_menu_item">FifthItem</string>
     <string name="head_name">佚名</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

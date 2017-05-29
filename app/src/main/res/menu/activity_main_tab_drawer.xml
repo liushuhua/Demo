@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:id="@+id/list_item">
+    <group android:id="@+id/list_item" android:checkableBehavior="single">
         <item
-            android:id="@+id/first"
+            android:id="@+id/menu_first"
             android:icon="@drawable/menu_first_icon"
             android:title="@string/first_menu_item" />
         <item
-            android:id="@+id/second"
+            android:id="@+id/menu_second"
             android:icon="@drawable/menu_second_icon"
             android:title="@string/second_menu_item" />
         <item
-            android:id="@+id/third"
+            android:id="@+id/menu_third"
             android:icon="@drawable/menu_third_icon"
             android:title="@string/third_menu_item" />
         <item
-            android:id="@+id/fourth"
+            android:id="@+id/menu_fourth"
             android:icon="@drawable/menu_fourth_icon"
             android:title="@string/fourth_menu_item" />
         <item
-            android:id="@+id/fifth"
+            android:id="@+id/menu_fifth"
             android:icon="@drawable/menu_fifth_icon"
             android:title="@string/fifth_menu_item" />
     </group>

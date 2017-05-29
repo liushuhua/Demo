@@ -1,7 +1,7 @@
 package com.example.liushuhua.weather;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.example.liushuhua.weather.manager.ActivityManager;
 
@@ -10,7 +10,7 @@ import com.example.liushuhua.weather.manager.ActivityManager;
  * description：
  */
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
