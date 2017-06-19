@@ -1,6 +1,5 @@
 package com.example.liushuhua.weather;
 
-import android.app.Application;
 import android.content.Context;
 
 import org.litepal.LitePalApplication;
@@ -10,7 +9,7 @@ import org.litepal.LitePalApplication;
  * description：
  */
 
-public class MyApplication extends Application {
+public class MyApplication extends LitePalApplication {
 
     private static Context context;
 
@@ -18,7 +17,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
-        LitePalApplication.initialize(context);
     }
 
     public static Context getContext() {

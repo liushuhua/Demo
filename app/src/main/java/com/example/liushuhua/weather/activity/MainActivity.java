@@ -72,7 +72,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.add_city){
-            ToastUtils.showToast("Add City");
+            ProvinceSelectActivity.openActivity(this,"","");
         }
     }
 }
